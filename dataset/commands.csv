@@ -1,0 +1,207 @@
+text,intent
+open calculator,OPEN_CALCULATOR
+open the calculator,OPEN_CALCULATOR
+launch calculator,OPEN_CALCULATOR
+start calculator,OPEN_CALCULATOR
+can you open calculator,OPEN_CALCULATOR
+show me the calculator,OPEN_CALCULATOR
+bring up calculator,OPEN_CALCULATOR
+i need a calculator,OPEN_CALCULATOR
+open calc,OPEN_CALCULATOR
+could you open the calculator for me,OPEN_CALCULATOR
+please open calculator,OPEN_CALCULATOR
+run calculator,OPEN_CALCULATOR
+start the calculator app,OPEN_CALCULATOR
+open up calculator,OPEN_CALCULATOR
+get me a calculator,OPEN_CALCULATOR
+launch the calculator application,OPEN_CALCULATOR
+i want to do some math open calculator,OPEN_CALCULATOR
+open calculator app,OPEN_CALCULATOR
+pull up calculator,OPEN_CALCULATOR
+open calculator please,OPEN_CALCULATOR
+open browser,OPEN_BROWSER
+open the browser,OPEN_BROWSER
+launch browser,OPEN_BROWSER
+start the browser,OPEN_BROWSER
+please bring up the web browser,OPEN_BROWSER
+open google chrome,OPEN_BROWSER
+i want to browse the internet,OPEN_BROWSER
+open the internet,OPEN_BROWSER
+can you open a browser,OPEN_BROWSER
+show me the browser,OPEN_BROWSER
+open web browser,OPEN_BROWSER
+launch the internet browser,OPEN_BROWSER
+open up the browser,OPEN_BROWSER
+start browsing,OPEN_BROWSER
+open browser please,OPEN_BROWSER
+get me the browser,OPEN_BROWSER
+i need to search something open browser,OPEN_BROWSER
+open chrome browser,OPEN_BROWSER
+pull up the browser,OPEN_BROWSER
+bring up google,OPEN_BROWSER
+open text editor,OPEN_TEXT_EDITOR
+open the text editor,OPEN_TEXT_EDITOR
+launch text editor,OPEN_TEXT_EDITOR
+can you start the text editor,OPEN_TEXT_EDITOR
+open notepad,OPEN_TEXT_EDITOR
+i want to write something open text editor,OPEN_TEXT_EDITOR
+start notepad,OPEN_TEXT_EDITOR
+open a text file,OPEN_TEXT_EDITOR
+bring up the text editor,OPEN_TEXT_EDITOR
+show me the text editor,OPEN_TEXT_EDITOR
+open editor,OPEN_TEXT_EDITOR
+launch notepad,OPEN_TEXT_EDITOR
+open up text editor,OPEN_TEXT_EDITOR
+i need to type something open editor,OPEN_TEXT_EDITOR
+open text editor please,OPEN_TEXT_EDITOR
+get me a text editor,OPEN_TEXT_EDITOR
+start the editor,OPEN_TEXT_EDITOR
+pull up notepad,OPEN_TEXT_EDITOR
+open writing app,OPEN_TEXT_EDITOR
+open the notes editor,OPEN_TEXT_EDITOR
+scroll up,SCROLL_UP
+scroll up please,SCROLL_UP
+move the page upward,SCROLL_UP
+scroll toward the top,SCROLL_UP
+go up the page,SCROLL_UP
+scroll to the top,SCROLL_UP
+page up please,SCROLL_UP
+move upward,SCROLL_UP
+go up a bit,SCROLL_UP
+scroll the page up,SCROLL_UP
+move the screen up,SCROLL_UP
+scroll higher,SCROLL_UP
+take me up the page,SCROLL_UP
+scroll upward please,SCROLL_UP
+go back up,SCROLL_UP
+scroll it up,SCROLL_UP
+i want to scroll up,SCROLL_UP
+move up on the screen,SCROLL_UP
+scroll the screen upward,SCROLL_UP
+go to the top of the page,SCROLL_UP
+scroll down,SCROLL_DOWN
+scroll down please,SCROLL_DOWN
+move the page downward,SCROLL_DOWN
+scroll toward the bottom,SCROLL_DOWN
+go down the page,SCROLL_DOWN
+scroll to the bottom,SCROLL_DOWN
+page down please,SCROLL_DOWN
+move downward,SCROLL_DOWN
+go down a bit,SCROLL_DOWN
+scroll the page down,SCROLL_DOWN
+move the screen down,SCROLL_DOWN
+scroll lower,SCROLL_DOWN
+take me down the page,SCROLL_DOWN
+scroll downward please,SCROLL_DOWN
+go further down,SCROLL_DOWN
+scroll it down,SCROLL_DOWN
+i want to scroll down,SCROLL_DOWN
+move down on the screen,SCROLL_DOWN
+scroll the screen downward,SCROLL_DOWN
+go to the bottom of the page,SCROLL_DOWN
+close application,CLOSE_APPLICATION
+close the application,CLOSE_APPLICATION
+close this app,CLOSE_APPLICATION
+please close the current application,CLOSE_APPLICATION
+shut this window,CLOSE_APPLICATION
+close the window,CLOSE_APPLICATION
+exit this application,CLOSE_APPLICATION
+close the program,CLOSE_APPLICATION
+shut down this app,CLOSE_APPLICATION
+close this program,CLOSE_APPLICATION
+quit this application,CLOSE_APPLICATION
+close the active window,CLOSE_APPLICATION
+close it,CLOSE_APPLICATION
+exit the app,CLOSE_APPLICATION
+close this window now,CLOSE_APPLICATION
+shut the application,CLOSE_APPLICATION
+close current app,CLOSE_APPLICATION
+terminate this application,CLOSE_APPLICATION
+close the current window,CLOSE_APPLICATION
+please close this,CLOSE_APPLICATION
+open file explorer,OPEN_FILE_EXPLORER
+open the file explorer,OPEN_FILE_EXPLORER
+i want to open my files,OPEN_FILE_EXPLORER
+show me my files,OPEN_FILE_EXPLORER
+open files,OPEN_FILE_EXPLORER
+launch file explorer,OPEN_FILE_EXPLORER
+open my folders,OPEN_FILE_EXPLORER
+bring up file explorer,OPEN_FILE_EXPLORER
+open the folder view,OPEN_FILE_EXPLORER
+show my documents,OPEN_FILE_EXPLORER
+open explorer,OPEN_FILE_EXPLORER
+i need to see my files,OPEN_FILE_EXPLORER
+open the files app,OPEN_FILE_EXPLORER
+show file manager,OPEN_FILE_EXPLORER
+open file manager,OPEN_FILE_EXPLORER
+pull up my files,OPEN_FILE_EXPLORER
+open my directory,OPEN_FILE_EXPLORER
+browse my files,OPEN_FILE_EXPLORER
+show me file explorer,OPEN_FILE_EXPLORER
+open windows explorer,OPEN_FILE_EXPLORER
+take a screenshot,TAKE_SCREENSHOT
+take screenshot,TAKE_SCREENSHOT
+capture the screen,TAKE_SCREENSHOT
+can you take a screenshot,TAKE_SCREENSHOT
+screenshot this,TAKE_SCREENSHOT
+capture my screen,TAKE_SCREENSHOT
+save a screenshot,TAKE_SCREENSHOT
+grab a screenshot,TAKE_SCREENSHOT
+take a picture of the screen,TAKE_SCREENSHOT
+screenshot the screen,TAKE_SCREENSHOT
+please take a screenshot,TAKE_SCREENSHOT
+capture this screen,TAKE_SCREENSHOT
+i need a screenshot,TAKE_SCREENSHOT
+snap the screen,TAKE_SCREENSHOT
+take a screen capture,TAKE_SCREENSHOT
+get a screenshot,TAKE_SCREENSHOT
+screenshot my screen,TAKE_SCREENSHOT
+capture screen now,TAKE_SCREENSHOT
+take a snapshot,TAKE_SCREENSHOT
+save what is on screen,TAKE_SCREENSHOT
+volume up,VOLUME_UP
+increase the volume,VOLUME_UP
+please increase the volume,VOLUME_UP
+can you increase the volume,VOLUME_UP
+increase sound level,VOLUME_UP
+turn the volume up,VOLUME_UP
+make it louder,VOLUME_UP
+raise the sound,VOLUME_UP
+turn up the sound,VOLUME_UP
+make the volume louder,VOLUME_UP
+increase sound,VOLUME_UP
+turn it up,VOLUME_UP
+please turn up the volume,VOLUME_UP
+raise the volume,VOLUME_UP
+i want it louder,VOLUME_UP
+boost the volume,VOLUME_UP
+crank up the volume,VOLUME_UP
+turn the sound up,VOLUME_UP
+higher volume please,VOLUME_UP
+increase the sound level,VOLUME_UP
+volume up please,VOLUME_UP
+make sound louder,VOLUME_UP
+turn up audio,VOLUME_UP
+volume down,VOLUME_DOWN
+decrease the volume,VOLUME_DOWN
+turn the volume down,VOLUME_DOWN
+make it quieter,VOLUME_DOWN
+lower the sound,VOLUME_DOWN
+turn down the sound,VOLUME_DOWN
+make the volume softer,VOLUME_DOWN
+decrease sound,VOLUME_DOWN
+turn it down,VOLUME_DOWN
+please turn down the volume,VOLUME_DOWN
+lower the volume,VOLUME_DOWN
+i want it quieter,VOLUME_DOWN
+reduce the volume,VOLUME_DOWN
+please reduce the volume,VOLUME_DOWN
+can you reduce the volume,VOLUME_DOWN
+reduce sound level,VOLUME_DOWN
+bring down the volume,VOLUME_DOWN
+turn the sound down,VOLUME_DOWN
+lower volume please,VOLUME_DOWN
+decrease the sound level,VOLUME_DOWN
+volume down please,VOLUME_DOWN
+make sound softer,VOLUME_DOWN
+turn down audio,VOLUME_DOWN

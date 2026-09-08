@@ -1,0 +1,8 @@
+venv/
+venv_linux/
+__pycache__/
+*.pyc
+*.wav
+*.mp3
+screenshot.png
+assistant_log.txt
