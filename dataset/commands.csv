@@ -60,6 +60,7 @@ pull up notepad,OPEN_TEXT_EDITOR
 open writing app,OPEN_TEXT_EDITOR
 open the notes editor,OPEN_TEXT_EDITOR
 scroll up,SCROLL_UP
+scrawl up,SCROLL_UP
 scroll up please,SCROLL_UP
 move the page upward,SCROLL_UP
 scroll toward the top,SCROLL_UP
@@ -80,6 +81,7 @@ move up on the screen,SCROLL_UP
 scroll the screen upward,SCROLL_UP
 go to the top of the page,SCROLL_UP
 scroll down,SCROLL_DOWN
+scrawl down,SCROLL_DOWN
 scroll down please,SCROLL_DOWN
 move the page downward,SCROLL_DOWN
 scroll toward the bottom,SCROLL_DOWN

@@ -69,6 +69,7 @@ data = [
 
     # SCROLL_UP
     ("scroll up", "SCROLL_UP"),
+    ("scrawl up", "SCROLL_UP"),
     ("scroll up please", "SCROLL_UP"),
     ("move the page upward", "SCROLL_UP"),
     ("scroll toward the top", "SCROLL_UP"),
@@ -91,6 +92,7 @@ data = [
 
     # SCROLL_DOWN
     ("scroll down", "SCROLL_DOWN"),
+    ("scrawl down", "SCROLL_DOWN"),
     ("scroll down please", "SCROLL_DOWN"),
     ("move the page downward", "SCROLL_DOWN"),
     ("scroll toward the bottom", "SCROLL_DOWN"),

@@ -1,7 +1,7 @@
 import joblib
 
 MODEL_PATH = "intent_model.pkl"
-CONFIDENCE_THRESHOLD = 0.3
+CONFIDENCE_THRESHOLD = 0.25
 
 _model = joblib.load(MODEL_PATH)
 
