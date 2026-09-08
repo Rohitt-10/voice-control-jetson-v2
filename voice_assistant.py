@@ -3,6 +3,7 @@ import time
 from datetime import datetime
 
 import numpy as np
+from scipy.signal import resample
 import sounddevice as sd
 from faster_whisper import WhisperModel
 from openwakeword.model import Model
@@ -16,17 +17,19 @@ from security_whitelist import is_intent_allowed
 # CONFIGURATION
 # ============================================================
 
-DEVICE_INDEX = 1
+DEVICE_INDEX = 24
+MIC_SAMPLE_RATE = 48000
 SAMPLE_RATE = 16000
 CHANNELS = 1
-CHUNK_SIZE = 1280
+CHUNK_SIZE = 3840  # 80ms at 48000Hz
 
 COMMAND_SECONDS = 5
 
-WAKE_THRESHOLD = 0.5
+WAKE_THRESHOLD = 0.35
 COOLDOWN_SECONDS = 2.0
 
-WAKE_MODEL = (
+WAKE_MODEL = "/home/orin/voice_control_files/models/hey_jarvis_v0.1.onnx"
+_OLD_WAKE_MODEL_START = (
     r"C:\Users\rohit\voice_control\venv\Lib\site-packages"
     r"\openwakeword\resources\models\hey_jarvis_v0.1.onnx"
 )
@@ -99,7 +102,7 @@ def wait_for_wake_word(wake_model):
 
     try:
         with sd.InputStream(
-            samplerate=SAMPLE_RATE,
+            samplerate=MIC_SAMPLE_RATE,
             channels=CHANNELS,
             dtype="int16",
             blocksize=CHUNK_SIZE,
@@ -114,6 +117,7 @@ def wait_for_wake_word(wake_model):
                     print("[WARNING] Audio buffer overflow.")
 
                 audio_chunk = audio_chunk[:, 0]
+                audio_chunk = resample(audio_chunk, 1280).astype(np.int16)
 
                 prediction = wake_model.predict(audio_chunk)
 
@@ -148,8 +152,8 @@ def record_command():
 
     try:
         audio = sd.rec(
-            int(COMMAND_SECONDS * SAMPLE_RATE),
-            samplerate=SAMPLE_RATE,
+            int(COMMAND_SECONDS * MIC_SAMPLE_RATE),
+            samplerate=MIC_SAMPLE_RATE,
             channels=CHANNELS,
             dtype="float32",
             device=DEVICE_INDEX
@@ -158,6 +162,7 @@ def record_command():
         sd.wait()
 
         audio = audio.flatten()
+        audio = resample(audio, int(len(audio) * SAMPLE_RATE / MIC_SAMPLE_RATE))
 
         if len(audio) == 0:
             print("[WARNING] No audio captured.")
